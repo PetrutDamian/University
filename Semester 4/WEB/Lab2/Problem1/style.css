@@ -1,0 +1,15 @@
+.child{
+    width:200px;
+    text-align:center;
+    align-self: center;
+}
+.parent{
+    width:400px;
+    border:1px solid;
+    display:flex;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.image{
+    max-width:200px;
+}

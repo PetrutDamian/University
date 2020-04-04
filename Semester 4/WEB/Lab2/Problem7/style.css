@@ -1,0 +1,35 @@
+body{
+    margin-left:80px;
+}
+.dialog{
+    list-style: none;
+}
+ul li{
+    padding:3px;
+    text-align: center;
+    min-height: 100px;
+    min-width: 300px;
+    font-size:24px;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin:80px 0 80px 0
+}
+.bob::before{
+    background: url("sprite.png");
+    content:" ";
+    position: absolute;
+    left:0;
+    width: 85px;
+    height: 75px;
+
+}
+.alice::before{
+    background: url("sprite.png");
+    content:" ";
+    position: absolute;
+    left:0px;
+    width: 85px;
+    height: 75px;
+    background-position:90px 0;
+}

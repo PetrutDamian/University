@@ -1,0 +1,94 @@
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul a,ul li{
+    width:84px;
+    height:84px;
+}
+li{
+    margin: 0;
+    list-style: none;
+}
+a{
+    display: block;
+    background: url(navbar.png);
+}
+#icon1{
+    background-position: 0 -84px;
+}
+#icon2{
+    background-position: -84px -84px;
+}
+#icon3{
+    background-position: -168px -84px;
+}
+#icon4{
+    background-position: -252px -84px;
+}
+#icon5{
+    background-position: -336px -84px;
+}
+#icon6{
+    background-position: -420px -84px;
+}
+#icon7{
+    background-position: -504px -84px;
+}
+#icon8{
+    background-position: -588px -84px;
+}
+#icon9{
+    background-position: -672px -84px;
+}
+#icon10{
+    background-position: -756px -84px;
+}
+#icon11{
+    background-position: -840px -84px;
+}
+#icon1:hover{
+    background-position: 0px 0px;
+    transition-duration:300ms;
+}
+#icon2:hover{
+    background-position: -84px 0px;
+    transition-duration:300ms;
+}
+#icon3:hover{
+    background-position: -168px 0px;
+    transition-duration:300ms;
+}
+#icon4:hover{
+    background-position: -252px 0px;
+    transition-duration:300ms;
+}
+#icon5:hover{
+    background-position: -336px 0px;
+    transition-duration:300ms;
+}
+#icon6:hover{
+    background-position: -420px 0px;
+    transition-duration:300ms;
+}
+#icon7:hover{
+    background-position: -504px 0px;
+    transition-duration:300ms;
+}
+#icon8:hover{
+    background-position: -588px 0px;
+    transition-duration:300ms;
+}
+#icon9:hover{
+    background-position: -672px 0px;
+    transition-duration:300ms;
+}
+#icon10:hover{
+    background-position: -756px 0px;
+    transition-duration:300ms;
+}
+#icon11:hover{
+    background-position: -840px 0px;
+    transition-duration:300ms;
+}
+

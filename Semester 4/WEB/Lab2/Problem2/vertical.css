@@ -1,0 +1,54 @@
+header{
+    height:30px;
+    text-align: center;
+    background-color:lightseagreen;
+    font-weight: bold;
+    font-size:24px;
+}
+
+header>div{
+    align-self: center;
+    margin:auto
+}
+body{
+    margin:0px;
+}
+a{
+    vertical-align: middle;
+    text-decoration: none;
+}
+ul{
+    margin:0px;
+    padding: 0px;
+    height: 500px;
+    float:left;
+    list-style-type: none;
+    background-color: lightgreen;
+}
+li a{
+    display: block;
+    padding:21px 21px 21px 21px  ;
+
+}
+li a:hover{
+    color: white;
+    background-color:#97afba;
+}
+#main{
+    background-color:#7b929c;
+    height:500px;
+    display:flex
+}
+#subsol{
+    background-color: indianred;
+    margin:0px;
+    height:150px;
+    text-align: center;
+    display: flex;
+}
+#subsol_text{
+    align-self: center;
+}
+#text_main{
+    align-self: center;
+}

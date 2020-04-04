@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+#wrap{
+    overflow: auto;
+    background-color: green;
+    min-height: 100%;
+}
+header{
+    text-align: center;
+    height:100px;
+    background-color: red;
+}
+
+footer{
+    text-align: center;
+    height:60px;
+    background-color: pink;
+    margin-top:-60px;
+}
+
+ul{
+    display: flex;
+    height: 25px;
+    background-color: yellow;
+}
+ul li{
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px solid;
+    text-align: center;
+}
+
+#main{
+    padding-bottom:60px;
+    font-size: 24px;
+    padding-left:10px;
+}
+#main_view{
+    font-weight: bold;
+    font-size: 30px;
+}

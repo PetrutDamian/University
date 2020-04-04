@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+}
+span{
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 30px;
+}
+#nume_span{
+    margin-left:45px;
+}
+#cnp_span{
+    margin-left:65px;
+}
+input{
+    margin-left: 30px;
+    font-family: "Lucida Console";
+    font-size:30px;
+    letter-spacing: 33px;
+    border:none;
+    height: 52px;
+    background-image: url("square.png");
+}
+#nume_span~input, #prenume_span~input{
+    width:1021px;
+}
+#cnp_span~input{
+    width:664px;
+}
+
+ul{
+    margin-left:50px;
+    margin-top:50px;
+}
+li{
+    margin:45px 20px 45px 0px;
+    list-style: none;
+}

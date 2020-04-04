@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    background-color: yellow;
+    margin:15px;
+    border:1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+li{
+    overflow: auto;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+img{
+    align-self: center;
+    vertical-align: middle;
+    margin:20px 20px 5px 20px;
+    width: 200px;
+    height: 200px;
+}
+img~p{
+    display: inline;
+}
