@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <util:properties id="jdbcProps" location="classpath:server.properties"/>
+
+    <bean id="cursaDbRepo" class="app.repository.CursaDbRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="rezervareDbRepo" class="app.repository.RezervareDbRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="userDbRepo" class="app.repository.UserDbRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="service" class="app.server.Service">
+        <constructor-arg index="0" ref="userDbRepo"/>
+        <constructor-arg index="1" ref="cursaDbRepo"/>
+        <constructor-arg index="2" ref="rezervareDbRepo"/>
+    </bean>
+
+</beans>
