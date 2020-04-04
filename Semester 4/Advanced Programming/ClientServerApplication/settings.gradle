@@ -1,0 +1,8 @@
+rootProject.name = 'TemaLab3Java'
+include 'ClientFX'
+include 'ApplicationServices'
+include 'ApplicationModel'
+include 'ApplicationNetworking'
+include 'ApplicationServer'
+include 'ApplicationRepository'
+
