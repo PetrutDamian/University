@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'application'
+}
+javafx {
+    version = "11.0.2"
+    modules = [ 'javafx.controls' , 'javafx.fxml']
+}
+group 'org.example'
+version '1.0-SNAPSHOT'
+mainClassName='app.clientFX.StartClientFX'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project (':ApplicationServices')
+    compile project(':ApplicationModel')
+    compile project(':ApplicationNetworking')
+}
