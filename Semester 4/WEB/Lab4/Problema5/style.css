@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding:0;
+}
+ol li{
+    transition: opacity 1s;
+    list-style-type:none;
+}
+a{
+    position:relative;
+    text-decoration: none;
+}
+a span{
+    position: absolute;
+    top:-20px;
+    left:-165px;
+    font-size: 30px;
+}
+
+a:visited {color :red;} /* Visited link    */
