@@ -2,7 +2,7 @@
 <br>
 <h2>Babes Bolyai University courses</h2>
 <h3>First Year</h3>
-<h2>Semester 1</h2>
+<h4>Semester 1</h4>
 <ul>
   <li>Fundamentals of Programming</li>
   <li>Computer System Architecture</li>
@@ -10,7 +10,7 @@
   <li>Algebra</li>
   <li>Calculus</li>
 </ul>
-<h2>Semester 2</h2>
+<h4>Semester 2</h4>
 <ul>
   <li>Object-Oriented Programming</li>
   <li>Operating Systems</li>
@@ -20,7 +20,7 @@
   <li>Dynamic Systems</li>
 </ul>
 <h3>Second Year</h3>
-<h2>Semester 3</h2>
+<h4>Semester 3</h4>
 <ul>
   <li>Databases</li>
   <li>Computer Networks</li>
@@ -28,7 +28,7 @@
   <li>Logical and Functional Programming</li>
   <li>Probabilities and Statistics</li>
 </ul>
-<h2>Semester 4</h2>
+<h4>Semester 4</h4>
 <ul>
   <li>Artificial Intelligence</li>
   <li>Database Management Systems</li>
