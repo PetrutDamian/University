@@ -1,0 +1,21 @@
+[2019-05-21 09:23:23] [info] Start Program:
+Path:"D:\Visual studio OOP\simulare\simulare\x64\Debug\simulare.exe"
+Arguments:
+Working directory: "D:\Visual studio OOP\simulare\simulare\simulare\"
+Modules: Selected: D:\Visual studio OOP\simulare\simulare\x64\Debug\simulare.exe Excluded: 
+Sources: Selected: D:\Visual studio OOP\simulare\simulare\simulare Excluded: Gui.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\scris\AppData\Local\Temp\x1c3v33y.oy3 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-05-21 09:23:23] [info] Module: D:\Visual studio OOP\simulare\simulare\x64\Debug\simulare.exe is selected because it matches selected pattern: D:\Visual studio OOP\simulare\simulare\x64\Debug\simulare.exe
+[2019-05-21 09:23:25] [info] ----------------------------------------------------
+[2019-05-21 09:23:25] [info] Coverage binary generated in file: C:\Users\scris\AppData\Local\Temp\x1c3v33y.oy3
+[2019-05-21 09:23:25] [info] ----------------------------------------------------
