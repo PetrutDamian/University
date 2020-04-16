@@ -2,13 +2,12 @@
 <br>
 <h2>Babes Bolyai University courses</h2>
 <h3>First Year</h3>
+* Fundamentals of Programming
 <br>
-Fundamentals of Programming
+* Computer System Architecture
 <br>
-Computer System Architecture
+* Computational Logic
 <br>
-Computational Logic
+* Algebra
 <br>
-Algebra
-<br>
-Calculus
+* Calculus
