@@ -1,0 +1,21 @@
+[2019-06-26 13:46:29] [info] Start Program:
+Path:"D:\PracticPetrutDamian216\PracticPetrutDamian216\x64\Debug\PracticPetrutDamian216.exe"
+Arguments:
+Working directory: "D:\PracticPetrutDamian216\PracticPetrutDamian216\PracticPetrutDamian216\"
+Modules: Selected: D:\PracticPetrutDamian216\PracticPetrutDamian216\x64\Debug\PracticPetrutDamian216.exe Excluded: 
+Sources: Selected: D:\PracticPetrutDamian216\PracticPetrutDamian216\PracticPetrutDamian216 Excluded: Gui.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\scris\AppData\Local\Temp\cx13if05.2im 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-06-26 13:46:30] [info] Module: D:\PracticPetrutDamian216\PracticPetrutDamian216\x64\Debug\PracticPetrutDamian216.exe is selected because it matches selected pattern: D:\PracticPetrutDamian216\PracticPetrutDamian216\x64\Debug\PracticPetrutDamian216.exe
+[2019-06-26 13:47:00] [info] ----------------------------------------------------
+[2019-06-26 13:47:00] [info] Coverage binary generated in file: C:\Users\scris\AppData\Local\Temp\cx13if05.2im
+[2019-06-26 13:47:00] [info] ----------------------------------------------------
