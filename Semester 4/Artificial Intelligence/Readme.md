@@ -1,6 +1,6 @@
 Artificial Intelligence
 <br><br>
-Lab1 : Algorithmic problems<br>
+Lab1 : Exercises
 Lab2 : Travelling salesman problem(Greedy, BestFirstSearch, AStar)<br>
 Lab3 : Genetic Algorithm for community detection<br>
 Lab4 : Genetic Algorithm for TSP<br>
