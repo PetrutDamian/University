@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Student>
+    <grade>
+        <tema>4</tema>
+        <nota>9.0</nota>
+        <predata>7</predata>
+        <deadline>8</deadline>
+        <feedback>aproape bine</feedback>
+    </grade>
+    <grade>
+        <tema>3</tema>
+        <nota>9.0</nota>
+        <predata>7</predata>
+        <deadline>5</deadline>
+        <feedback>Foarte bine</feedback>
+    </grade>
+</Student>
