@@ -1,1 +1,1 @@
-
+Java client server application.
