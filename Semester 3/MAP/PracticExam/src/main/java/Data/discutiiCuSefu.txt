@@ -1,0 +1,15 @@
+Sef,Ion,dwqdwq,2020-02-05T11:44:57.760552600
+Sef,Carmen,dwqdwq,2020-02-05T11:44:57.764541900
+Sef,Carmen,dwqdwq,2020-02-05T11:45:01.751705100
+Carmen,Ion,dwqd,2020-02-05T11:49:57.117237600
+Carmen,Sef,dwqd,2020-02-05T11:49:57.121226100
+Carmen,Sef,dwqd,2020-02-05T11:49:58.574992800
+Ion,Sef,ion,2020-02-05T12:17:06.873305400
+Ion,Carmen,ion,2020-02-05T12:17:06.878294300
+Sef,Ion,LA TOTI DE LA SEF,2020-02-05T15:52:07.947746200
+Sef,Carmen,LA TOTI DE LA SEF,2020-02-05T15:52:07.955726200
+Sef,Carmen,doar pentru carmen de la sef,2020-02-05T15:52:29.587693200
+Sef,Ion,la toti de la sef a doua oara,2020-02-05T15:53:00.743240200
+Sef,Carmen,la toti de la sef a doua oara,2020-02-05T15:53:00.745217100
+Ion,Sef,salut ai revenit carmen,2020-02-05T15:53:13.154823400
+Ion,Carmen,salut ai revenit carmen,2020-02-05T15:53:13.156169100
