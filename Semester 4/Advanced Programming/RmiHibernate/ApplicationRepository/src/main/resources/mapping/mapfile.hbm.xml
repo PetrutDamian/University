@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="app.model.User" table="User">
+        <id name="id" column="id" type="string"/>
+        <property name="password" column="password" type="string"/>
+    </class>
+    <class name="app.model.Rezervare" table="rezervari">
+        <id name="id" type="int" column="id"/>
+        <property name="client" type="string" column="client"/>
+        <property name="idCursa" type="int" column="idCursa"/>
+        <property name="nrLoc" type="int" column="nrLoc"/>
+    </class>
+    <class name="app.model.Cursa2" table="curse">
+        <id name="id" type="int" column="id"/>
+        <property name="destinatie" type="string" column="destinatie"/>
+        <property name="locuriDisponibile" type="int" column="locuri"/>
+        <property name="date" type="string" column="date"/>
+    </class>
+</hibernate-mapping>
