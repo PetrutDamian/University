@@ -11,4 +11,7 @@
     -View grade list<br><br>
     -Receive email whenever new grade or homework is received.
     
+    <br><br>
+ <h5>PostGreSQL database used><h5>
+    
   
