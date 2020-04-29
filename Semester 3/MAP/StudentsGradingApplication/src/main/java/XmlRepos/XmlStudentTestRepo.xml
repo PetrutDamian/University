@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id="1">
+        <nume>nume1</nume>
+        <prenume>prenume1</prenume>
+        <grupa>220</grupa>
+        <email>popion@yahoo.com</email>
+        <cadru>coroiu</cadru>
+    </student>
+    <student id="2">
+        <nume>nume2</nume>
+        <prenume>prenume2</prenume>
+        <grupa>220</grupa>
+        <email>prepel@yahoo.com</email>
+        <cadru>coroiu</cadru>
+    </student>
+    <student id="3">
+        <nume>nume3</nume>
+        <prenume>prenume3</prenume>
+        <grupa>221</grupa>
+        <email>marima@yahoo.com</email>
+        <cadru>bradut</cadru>
+    </student>
+    <student id="4">
+        <nume>nume4</nume>
+        <prenume>prenume4</prenume>
+        <grupa>221</grupa>
+        <email>carmen@yahoo.com</email>
+        <cadru>bradut</cadru>
+    </student>
+    <student id="5">
+        <nume>nume5</nume>
+        <prenume>prenume5</prenume>
+        <grupa>222</grupa>
+        <email>cristi@gmail.com</email>
+        <cadru>Stanky</cadru>
+    </student>
+    <student id="6">
+        <nume>nume6</nume>
+        <prenume>prenume6</prenume>
+        <grupa>222</grupa>
+        <email>stefanescu@yahoo.com</email>
+        <cadru>Stanky</cadru>
+    </student>
+</students>

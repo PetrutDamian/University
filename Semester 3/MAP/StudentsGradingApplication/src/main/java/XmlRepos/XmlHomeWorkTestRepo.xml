@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<homeworks>
+    <homework id="1">
+        <descriere>tema</descriere>
+        <startWeek>6</startWeek>
+        <deadlineWeek>14</deadlineWeek>
+    </homework>
+    <homework id="2">
+        <descriere>tema2</descriere>
+        <startWeek>6</startWeek>
+        <deadlineWeek>13</deadlineWeek>
+    </homework>
+</homeworks>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Student>
+    <grade>
+        <tema>1</tema>
+        <nota>10.0</nota>
+        <predata>1</predata>
+        <deadline>2</deadline>
+        <feedback>Complet si corect.</feedback>
+    </grade>
+    <grade>
+        <tema>2</tema>
+        <nota>10.0</nota>
+        <predata>3</predata>
+        <deadline>3</deadline>
+        <feedback>Complet si corect.</feedback>
+    </grade>
+    <grade>
+        <tema>3</tema>
+        <nota>10.0</nota>
+        <predata>4</predata>
+        <deadline>4</deadline>
+        <feedback>Complet si corect.</feedback>
+    </grade>
+    <grade>
+        <tema>4</tema>
+        <nota>9.0</nota>
+        <predata>6</predata>
+        <deadline>6</deadline>
+        <feedback>Rezolvata partial.</feedback>
+    </grade>
+<grade><tema>5</tema><nota>8.0</nota><predata>10</predata><deadline>8</deadline><feedback>Nota a fost diminuata cu 2 puncte datorita intarzierilor</feedback></grade><grade><tema>6</tema><nota>10.0</nota><predata>10</predata><deadline>11</deadline><feedback>Complet si corect.</feedback></grade></Student>
