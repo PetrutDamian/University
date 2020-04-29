@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.clientFX.Controllers.MainController">
+    <children>
+        <TableView fx:id="tableCurse" layoutX="14.0" layoutY="14.0" prefHeight="249.0" prefWidth="272.0">
+            <columns>
+                <TableColumn fx:id="tableColumnDestination" minWidth="50.0" prefWidth="75.0" text="Destination" />
+                <TableColumn fx:id="tableColumnDate" minWidth="75.0" prefWidth="75.0" text="Date" />
+                <TableColumn fx:id="tableColumnSeats" minWidth="30.0" prefWidth="75.0" text="Seats" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <Label layoutX="335.0" layoutY="33.0" prefHeight="35.0" prefWidth="91.0" text="Destination" textFill="BLUE">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="335.0" layoutY="79.0" prefHeight="35.0" prefWidth="91.0" text="Date" textFill="BLUE">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldDestination" layoutX="436.0" layoutY="38.0" promptText="destination" />
+        <TextField fx:id="textFieldDate" layoutX="436.0" layoutY="84.0" promptText="yyyy-MM-dd hh:mm" />
+        <Button fx:id="buttonSearch" layoutX="617.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleSearch" prefHeight="71.0" prefWidth="111.0" text="Search" textFill="#2200fc">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Button>
+        <TableView fx:id="tableSeats" layoutX="14.0" layoutY="270.0" prefHeight="229.0" prefWidth="272.0">
+            <columns>
+                <TableColumn fx:id="tableColumnSeat" prefWidth="75.0" text="Seat" />
+                <TableColumn fx:id="tableColumnClient" prefWidth="75.0" text="Client" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <Label layoutX="320.0" layoutY="160.0" prefHeight="35.0" prefWidth="91.0" text="Destination" textFill="#717f9a">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonLogout" layoutX="636.0" layoutY="428.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="71.0" prefWidth="111.0" text="Logout" textFill="#ff4534">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Button>
+        <Label layoutX="320.0" layoutY="208.0" prefHeight="35.0" prefWidth="91.0" text="Date" textFill="#717f9a">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="320.0" layoutY="309.0" prefHeight="44.0" prefWidth="122.0" text="Seats to book" textFill="#717f9a">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelDestinationObserver" layoutX="422.0" layoutY="169.0" text="Label" />
+        <Label fx:id="labelDateObserver" layoutX="422.0" layoutY="217.0" text="Label" />
+        <TextField fx:id="textFieldNumberOfSeats" layoutX="422.0" layoutY="317.0" promptText="number of seats to book">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+        <Button fx:id="buttonMakeBooking" layoutX="320.0" layoutY="374.0" mnemonicParsing="false" onAction="#handleBooking" prefHeight="35.0" prefWidth="162.0" text="Make a booking" textFill="#2200fc">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Button>
+        <Label layoutX="320.0" layoutY="255.0" prefHeight="35.0" prefWidth="91.0" text="Client Name" textFill="#717f9a">
+            <font>
+                <Font name="Calibri Light Italic" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldClientName" layoutX="422.0" layoutY="258.0" promptText="name">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>
