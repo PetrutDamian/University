@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0;
+}
+#menu{
+    position:absolute;
+    top:115px;
+    left:45px;
+}
+ol li{
+    position:absolute;
+    list-style-type:none;
+}
+a{
+    position:absolute;
+    top:80px;
+    left:95px;
+    text-decoration: none;
+    font-size: 30px;
+}
+span:hover{
+    color:blue;
+}
+
+
+a:visited {color :red;} /* Visited link    */

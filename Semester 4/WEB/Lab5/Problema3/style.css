@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+}
+#container{
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-top :5px;
+    box-sizing:border-box;
+    display: flex;
+    background: grey;
+    border: 1px solid;
+    max-width: 42%;
+}
+#container > div{
+    box-sizing:border-box;
+    background: red;
+    border:lightslategrey 1px solid;
+
+    width:130px;
+    margin:5px;
+    padding:20px;
+    font-size: 60px;
+    text-align: center;
+}
+
