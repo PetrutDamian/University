@@ -1,0 +1,89 @@
+.myApp{
+    margin:0;
+    padding:0;
+    background-color: cadetblue;
+    text-align:center;
+    color:green;
+    font-size: x-large;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+input{
+    font-size: 15px;
+    font-weight: bold;
+    color: darkslateblue;
+    background-color: cadetblue;
+    border-color:green;
+    border-width: 2px;
+    border-radius: 5px;
+    position:absolute;
+    left:875px;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+
+}
+#root{
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-color: cadetblue;
+}
+
+.submitButton{
+    position: absolute;
+    width: 190px;
+    background-color: indianred;
+    border-color: indianred;
+    border-radius: 0;
+}
+.submitButton:hover{
+    cursor: pointer;
+}
+
+table{
+
+    margin-top:30px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    border-collapse: collapse;
+
+}
+tr:nth-child(even){
+    background-color: #52a085;
+
+}
+td,th{
+    padding:15px;
+    border-top: 1px solid darkslateblue;
+}
+
+th{
+    color:darkgreen;
+    background-color: seagreen;
+}
+
+.deleteButton{
+    background-color: darkslateblue;
+    border-color:darkslateblue;
+    color:lightgrey;
+    font-style: italic;
+    height: 30px;
+    width: 80px;
+}
+.deleteButton:hover{
+    cursor:pointer;
+    background-color: indianred;
+    border-color: indianred;
+    color:black;
+    font-weight: bold;
+}
