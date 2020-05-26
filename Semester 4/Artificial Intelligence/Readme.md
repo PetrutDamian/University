@@ -9,3 +9,4 @@ Lab6 : Methods of Evaluation for Machine Learning<br>
 Lab7 : Least Square Method linear regression problem<br>
 Lab8 : Gradient Descent linear regression problem<br>
 Lab9 : Logistic regression classification problem<br>
+Lab10 : Artificial neural network from scratch<br>
