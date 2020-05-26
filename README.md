@@ -24,7 +24,7 @@
 <ul>
   <li>Databases</li>
   <li>Computer Networks</li>
-  <li>Advanced Programming Methods</li>
+  <li>Programming Methods</li>
   <li>Logical and Functional Programming</li>
   <li>Probabilities and Statistics</li>
 </ul>
@@ -33,6 +33,6 @@
   <li>Artificial Intelligence</li>
   <li>Database Management Systems</li>
   <li>Web programming</li>
-  <li>Software Engineering</li>
+  <li>Advanced Programming</li>
   <li>Systems for Design and Implementation</li>
 </ul>
