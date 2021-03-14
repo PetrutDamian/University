@@ -1,0 +1,49 @@
+Specificare EBNF
+------------------------------------------------------------------------------------------------------------------------------------------------
+program={incluziune} 
+	"using namespace std;
+	int main(){" {instructiune} "}".
+
+incluziune="#include <" nume_librarie ">".
+nume_librarie="iostream".
+instructiune=declaratie|atribuire|IO|conditionala|ciclare.
+
+declaratie=tip_date " " ID [dimensiune_array] {"," ID [dimensiune_array]} ";".
+tip_date="int"|"float".
+ID=litera {litera | cifra}.
+litera = "a"|"b"|"c"|"d"|"e"|"f"|"g"|"h"|"i"|"j"|"k"|"l"|"m"|"n"|"o"|"p"|"q"|"r"|"s"|"t"|"u"|"v"|"w"|"x"|"y"|"z".
+cifra="0"|"1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9".
+dimensiune_array="[" numar_nenul "]".
+numar_nenul=cifra_nenula {cifra}.
+cifra_nenula="1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9".
+
+atribuire=ID "=" expresie ";".
+expresie=operand|expresie operator_aritmetic expresie | "(" expresie ")".
+operand=ID|numar_nenul|"0".
+operator_aritmetic="+"|"-"|"*"|"/"|"%".
+
+IO=input|output.
+output="cout <<" expresie|string| "endl" ";".
+STRING='"' {litera|cifra} '"'
+input="cin >>" ID {">>" ID} ";"
+
+conditionala="if" bracket_expr instructiune.
+conditionala="if" bracket_expr "{" {instructiune} "}".
+conditionala= conditionala "else" instructiune.
+conditionala= conditionala "else" "{" instructiune {instructiune} "}".
+bracket_expr="(" conditie {operator_logic conditie} ")".
+operator_logic= "&&" | "||".
+conditie= expresie operator_conditional expresie.
+operator_conditional = "<" | ">" | "==" | "<=" | ">=" | "!=".
+
+ciclare="while" bracket_expr instructiune.
+ciclare="while" bracket_expr "{" instructiune {instructiune} "}".
+
+
+
+
+
+
+
+
+
