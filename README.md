@@ -41,5 +41,5 @@
 <ul>
   <li>Parallel and distributed computing</li>
   <li>Programming for mobile devices</li>
-  <li>Logical and Functional Programming</li>
+  <li>Formal Languages and Compilers Design</li>
 </ul>
