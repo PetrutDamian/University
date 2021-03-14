@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/EventsListFragment">
+
+
+    <fragment android:id="@+id/LoginFragment"
+        android:name="unique.damian.androidapp.auth.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login"/>
+
+    <fragment
+        android:id="@+id/EventsListFragment"
+        android:name="unique.damian.androidapp.core.eventList.EventsListFragment"
+        android:label="@string/events_list_fragment_label"
+        tools:layout="@layout/fragment_events_list">
+
+        <action
+            android:id="@+id/action_EventsListFragment_to_EventEditFragment"
+            app:destination="@id/EventEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EventEditFragment"
+        android:name="unique.damian.androidapp.core.event.EventEditFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_event_edit">
+
+        <action
+            android:id="@+id/action_EventEditFragment_to_EventsListFragment"
+            app:destination="@id/EventsListFragment" />
+    </fragment>
+</navigation>
