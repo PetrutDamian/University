@@ -36,3 +36,10 @@
   <li>Advanced Programming</li>
   <li>Systems for Design and Implementation</li>
 </ul>
+<h3>Third Year</h3>
+<h4>Semester 5</h4>
+<ul>
+  <li>Parallel and distributed computing</li>
+  <li>Programming for mobile devices</li>
+  <li>Logical and Functional Programming</li>
+</ul>
