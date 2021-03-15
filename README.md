@@ -46,5 +46,7 @@
 </ul>
 <h4>Semester 6</h4>
 <ul>
-
+ <li>Numerical calculus</li>
+  <li>Software Systems Validation</li>
+  <li>Game development</li>
 </ul>
