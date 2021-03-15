@@ -42,4 +42,5 @@
   <li>Parallel and distributed computing</li>
   <li>Programming for mobile devices</li>
   <li>Formal Languages and Compilers Design</li>
+  <li>Software Security</li>
 </ul>
